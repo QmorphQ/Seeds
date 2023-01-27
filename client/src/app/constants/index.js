@@ -5,7 +5,7 @@ export const downloadRequestStates = {
   IDLE: "idle",
 };
 
-export const API = process.env.DEPLOY ? "https://seedra-server.onrender.com/api/" : "http://localhost:8000/api/"; 
+export const API = process.env.DEPLOY ? "https://seeds-server.onrender.com/api/" : "http://localhost:8000/api/"; 
 export const PRODUCTS_NUMBER_ON_MAIN_PAGE = 6
 
 export const productCategories = [
