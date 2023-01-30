@@ -1,22 +1,22 @@
-## You can check [DEMO](https://final-project-seeds-3xbvm5vrj-qmorphq.vercel.app/)
-# Seeds group 
+## Seeds - online shope store, designed to satisfy the most common user needs during online shopping for the best UI experience. 
+## You can check [DEMO :gem:](https://seeds-jg3kdhqqw-qmorphq.vercel.app/)
+## Seeds group consisted of nine developers (you can check original source code with all commits history [here](https://github.com/QmorphQ/Final-Project-Seeds))
 
-## Group members:
+### List of technologies used:
 
-1. **Primakov Sergey** - Teamlead;
-2. **Molchanova Daria** - Project Manager;
-3. **Bondarenko Serhiy** - Developer;
-4. **Anton Ogniev** - Developer;
-4. **Ogniev Anton**
-5. **Rakhil Igor** - Developer;
-6. **Koshelivskiy Alexey** - Developer;
-7. **Franchuk Nikolay** - Developer;
-8. **Makovskij Vladislav** - Developer;
+- **React, Redux, React Router**
+- **Material UI**
+- **Sentry**
+- **MongoDB, Express, Mongoose**
+- **Webpack, ESLint, Prettier**
 
-### List of technologies:
+### List of implemented features:
+- **Live search**
+- **Authorization logic (sign in/sign up)**
+- **Different logic for authorized user and not one (favorite/cart products)**
+- **Payment checkout with particular API (autocomplete checkout form)**
+- **Optional filter**
+- **Static pages**
+- **Product page**
 
-- **React, Redux, React Router**;
-- **Material UI**;
-- **Sentry**;
-- **MongoDB, Express**;
-- Project configuration: **Webpack, ESLint, Prettier**;
+### How to use locally: download code (zip file) or use command `git clone https://github.com/QmorphQ/Seeds.git`. In project directory open `client` directory (there no need to install server as it is deployed separately for security considerations) type `npm i --force` in the cli prompt. To run dev project in developer mode type `npm run dev`. To see production version run `npm run build` (after completing there will be `build` folder). To lunch build version type `serve -s build` and open browser on `http://localhost:3000`.
